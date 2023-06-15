@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "hash": "819e9b28dedd33e85678",
+  "hash": "a4b01d3bb4a7435860b1",
   "publicPath": "",
   "outputPath": "C:\\courses\\pwa\\pwa-kit-starter-project\\build",
   "assetsByChunkName": {
@@ -46,6 +46,9 @@
     "pages-page-not-found": [
       "pages-page-not-found.js"
     ],
+    "pages-contact": [
+      "pages-contact.js"
+    ],
     "vendor": [
       "vendor.js"
     ]
@@ -54,7 +57,7 @@
     {
       "type": "asset",
       "name": "vendor.js",
-      "size": 1027502,
+      "size": 1055727,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -82,7 +85,7 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 180343,
+      "size": 181014,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -346,7 +349,7 @@
     {
       "type": "asset",
       "name": "pages-checkout.js",
-      "size": 32020,
+      "size": 32017,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -598,6 +601,28 @@
       "auxiliaryChunkIdHints": [],
       "chunks": [
         896
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "pages-contact.js",
+      "size": 1845,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "pages-contact"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        641
       ],
       "auxiliaryChunks": []
     },
@@ -1060,6 +1085,23 @@
       "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {}
+    },
+    "pages-contact": {
+      "name": "pages-contact",
+      "chunks": [
+        641
+      ],
+      "assets": [
+        {
+          "name": "pages-contact.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
     }
   },
   "generator": "loadable-components",
@@ -1230,6 +1272,12 @@
       "id": 710,
       "files": [
         "pages-page-not-found.js"
+      ]
+    },
+    {
+      "id": 641,
+      "files": [
+        "pages-contact.js"
       ]
     },
     {
